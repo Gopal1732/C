@@ -1,19 +1,19 @@
 #include<iostream>
 using namespace std;
 int main(){
-    int a=0;
-    int b=1;
-    int i,n;
-    cout<<"Enter the value of n";
-    cin>>n;
-    cout<<a<<" "<<b<<" ";
-    for ( i = 1; i <= n; i++)
-    {
-        int sumfibo=a+b;
-        cout<<sumfibo<<" ";
-        a=b;
-        b=sumfibo;
-    }
-    
+int a,b,n,sum_ab;
+a=0;
+b=1;
+cout<<"Enter the number you want";
+cin>>n;
+cout<<a<<" "<<b<<" ";
+for (int i = 1; i < n; i++)
+{
+    sum_ab=a+b;
+    a=b;
+    b=sum_ab;
+    cout<<sum_ab<<" ";
+}
+
 return 0;
 }
