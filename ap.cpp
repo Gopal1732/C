@@ -16,3 +16,5 @@ for (int i = 1; count <= n; i++)
 
 return 0;
 }
+
+//MY MISTAKE COUNT <= N;
