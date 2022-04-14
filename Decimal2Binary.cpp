@@ -1,27 +1,19 @@
 #include<iostream>
 #include<math.h>
 using namespace std;
-
-
-int main() {
-
+int main(){
     int n;
-    cin >> n;
-
-
-    int ans  = 0;
-    int i = 0;
-    while(n != 0 ) {
-
-        int bit  = n & 1;
-
-        ans = (bit * pow(10, i) ) + ans;
-
-        n = n >> 1;
-        i++;
-
+    int bit;
+    int answer=0;
+    cout<<"Enter the value of n";
+    cin>>n;
+    for ( int i = 0; n!=0; i++)
+    {
+        bit =n&1;
+        answer=(bit * pow(10,i))+answer;
+        n=n>>1; 
     }
-
-    cout<<" Answer is " << ans << endl;
-    return 0;
+    cout<<"The answer is"<<answer;
+    
+return 0;
 }
