@@ -9,13 +9,13 @@ int main(){
     int answer=0;
     for (int i = 0; n!=0; i++)
     {
-        digit =n%10;
+        digit=n%10;
         if (digit==1)
         {
-            answer=answer+pow(2,i);
+            answer=digit*pow(2,i)+answer;
         }
         n=n/10;
     }
-    cout<<"The answer is"<<answer;
+   cout<<"The answer is"<<answer; 
 return 0;
 }
