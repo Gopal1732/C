@@ -13,7 +13,7 @@ for (int i = 1; count <= n; i++)
         count++;
     }
 }
-
+cout<<"hello my name is gopal";
 return 0;
 }
 
