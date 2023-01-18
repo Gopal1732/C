@@ -1,5 +1,20 @@
 #include<stdio.h>
+
+float converttemp(float celsius);
+  
 int main(){
-    printf("chitkara University");
-    return 0;
+   
+    float far=converttemp(37);
+    printf("%f",far);
+    
+
+
+return 0;
+}
+
+float converttemp(float celsius){
+    
+    float far=celsius*(9/5)+32;
+    
+    return far;
 }
