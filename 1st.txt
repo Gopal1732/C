@@ -1,0 +1,77 @@
+Dsatatype-
+   
+
+                       I                                       II
+                    predefined                              userdefined
+
+
+
+       Fundamental                Derived                            
+       
+         int                      long                       structure-c
+ 
+         char                                                 class type-oops
+ 
+         float                    double
+
+
+
+                  .............................Access Specifier..........................
+
+  
+
+                 int
+                 char
+                 float
+                 
+
+
+conditional 
+          eg ?
+unary-
+                   pre                               post
+             increment     dectrement       increment       decrement
+             ++a             --a              a++           a--
+
+
+logical--    
+          AND-&&
+          OR-||
+          NOT-!  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

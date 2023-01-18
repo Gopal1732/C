@@ -1,0 +1,127 @@
+                           ------------------------Question 1----------------------------
+#include<stdio.h>
+int main(){
+	int num1,num2,num3;
+	printf("enter 1st Number:");
+	scanf("%d",&num1);
+	
+	printf("enter 2nd Number:");
+	scanf("%d",&num2);
+	 
+	printf("enter 3rd Number:");
+	scanf("%d",&num3); 
+	
+	if(num1>=num2 && num1>=num3){
+		printf("1st Number is highest that is %d",num1);
+		  
+		 if(num1==num2){
+		 	printf(" \n Number1 and Number2 are same");
+	       }
+		else if(num1==num3){
+		 		printf(" \n Number1 and Number3 are same");
+			 }	
+	}
+	
+	else if(num2>=num1 && num2>=num3){
+		printf("2nd Number is highest that is %d",num2);
+		if(num2==num1){
+		 	printf("\n Number2 and Number1 are same");
+		 }
+		 	else if(num2==num3){
+		 		printf("\n Number2 and Number3 are same");
+			 }
+    } 
+		 
+	else if(num3>=num1 && num3>=num2){
+		printf("3rd Number is highest that is %d",num3);
+		if(num3==num1){
+		 	printf("\n Number3 and Number1 are same");
+		 }
+		 	else if(num3==num2){
+		 		printf("\n Number3 and Number2 are same");
+			 } 	
+    }
+	
+	return 0;	
+	
+}
+
+                          ---------------------------------Question 2-----------------------------
+
+#include<stdio.h>
+int main(){
+	int var1,var2,var3,var4,var5;
+	int sum;
+	int percentage;
+	printf("enter marks of maths:");
+	scanf("%d",&var1);
+	if(var1<=100 && var1>=33){
+		printf("pass");
+	}
+	 else{
+		printf("fail");
+	  }	
+	
+	
+	printf("\nenter marks of english:");
+	scanf("%d",&var2);
+	if(var2<=100 && var2>=33){
+		printf("pass");
+	}
+	else{
+		printf("fail");
+	}	
+	
+	
+	printf("\nenter marks of gk:");
+	scanf("%d",&var3);
+	if(var3<=100 && var3>=33){
+		printf("pass");
+	}
+	else{
+		printf("fail");
+	}	
+	
+	printf("\nenter marks of science:");
+	scanf("%d",&var4);
+	if(var4<=100 && var4>=33){
+		printf("pass");
+	}
+	else{
+		printf("fail");
+	}	
+
+	
+	printf("\nenter marks of hindi:");
+	scanf("%d",&var5);
+	if(var5<=100 && var5>=33){
+		printf("pass");
+		}
+	else{
+		printf("fail");
+	}	
+	
+	sum=var1+var2+var3+var4+var5;
+	percentage = (sum * 100) / 500;
+	printf("\n result:%d",percentage);
+	
+	if(percentage>=91 && percentage<=100){
+	    printf("\npercentage is %d and Grade is O  and pass",percentage);
+	}
+		else if(percentage>=81 && percentage<=90){
+	    printf("\npercentage is %d and Grade is A1 and pass",percentage);
+	}
+		else if(percentage>=71 && percentage<=80){
+	    printf("\npercentage is %d and Grade is A and pass",percentage);
+	}
+		else if(percentage>=61 && percentage<=70){
+	    printf("\npercentage is %d and Grade is B and pass",percentage);
+	}
+		else if(percentage>=51 && percentage<=60){
+	    printf("\npercentage is %d and Grade is C and pass ",percentage);
+	}
+	else{
+	    printf("\nfail");
+	}
+	return 0;
+}
