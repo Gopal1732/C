@@ -29,10 +29,10 @@ int main(){
     if(percentage>90){
         printf("first divison");
     }
-    else if(percentage>=90 || percentage<80){
+    else if(percentage>=90 && percentage<80){
         printf("second divison");
     }
-    else if(percentage>=80 || percentage<70){
+    else if(percentage>=80 && percentage<70){
         printf("third divison");
     }
     else{
