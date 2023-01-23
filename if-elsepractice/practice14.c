@@ -1,0 +1,21 @@
+//.Write a C program to check whether a triangle is Equilateral, Isosceles or Scalene
+#include<stdio.h>
+
+int main(){
+    int  side1,side2,side3;
+   
+    printf("Enter three sides:");
+    scanf("%d %d %d",&side1,&side2,&side3);
+
+    if(side1==side2 && side1==side3){
+        printf("equilateral triangle");
+    }
+    else if(side1==side2 || side1==side3|| side2==side3){
+        printf("isosceles triangle");
+    }
+    else{
+        printf("Scalene triangle");
+    }
+
+    return 0;
+}
