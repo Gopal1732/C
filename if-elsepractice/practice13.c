@@ -1,4 +1,6 @@
 //. Write a C program to read temperature in centigrade and display a suitable message according to temperature state below :
+#include<stdio.h>
+
 int main(){
     int  temp;
    
