@@ -1,11 +1,15 @@
-    //  for(i=n-1;i>=1;i--){
- 
 
-    //     for(int j=n-i;j>=1;j--){
-    //         printf(" ");
-    //     }
-    //     for(int j=1;j<=2*i-1;j++){
-    //             printf(" *");
-    //         }
-    //     printf("\n");
-    // }
+
+int main(){
+    int n,j;
+    scanf("%d",&n);
+    for(int i=1;i<=n;i++){
+        for(int s=1;s<=i-1;s++){
+            printf(" ");
+        }
+        for(int j=1;j<=n-i+1;j++){
+            printf("%d",j);   
+        }
+        for(int k=1;k<=n -i;k++){
+          //  int x=k-i;//
+            printf("%d",n - i - 
