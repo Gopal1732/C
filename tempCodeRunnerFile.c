@@ -1,4 +1,4 @@
-
+#include<stdio.h>
 
 int main(){
     int n,j;
@@ -12,4 +12,11 @@ int main(){
         }
         for(int k=1;k<=n -i;k++){
           //  int x=k-i;//
-            printf("%d",n - i - 
+            printf("%d",n - i - k + 1);
+        }
+        printf("\n");
+
+
+    }
+    return 0;
+}
