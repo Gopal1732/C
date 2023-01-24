@@ -21,7 +21,7 @@ switch(num){
         case 4: printf("Thursday");
         break;
 
-        case 5: printf("Ffriday");
+        case 5: printf("Friday");
         break;
 
         case 6: printf("Saturday");
