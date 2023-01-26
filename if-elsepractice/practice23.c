@@ -31,6 +31,7 @@ void main(){
          case 12:printf("Dec.");
         break;
         default:printf("invalid input");
+        break;
 
     }
 }
