@@ -25,7 +25,7 @@ int main(){
 
     //     printf("\nDo u wanna continue... press(y/n)\n");
     //     fflush(stdin);
-    //     scanf("%c",ch);
+    //     scanf("%c",&ch);
 
 
     // }
@@ -49,7 +49,7 @@ int main(){
 
         amount=(pri*rate*time)/100;
 
-        printf("sum:-%d\n",amount);
+        printf("Amount:-%d\n",amount);
 
         printf("\nDo u wanna continue... press(y/n)\n");
         fflush(stdin);
