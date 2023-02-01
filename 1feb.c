@@ -34,50 +34,31 @@ int main(){
 
 
  //principle:-
-//  int pri,rate,time,amount;
-//     char ch;
-//     do{
-//         printf("enter principle value:");
-//         scanf("%d",&pri);
-
-//         printf("enter rate value:");
-//         scanf("%d",&rate);
-
-//          printf("enter time value:");
-//         scanf("%d",&time);
-        
-
-//         amount=(pri*rate*time)/100;
-
-//         printf("sum:-%d\n",amount);
-
-//         printf("\nDo u wanna continue... press(y/n)\n");
-//         fflush(stdin);
-//         scanf("%c",ch);
-
-
-//     }
-//     while(ch=='Y' || ch=='N');
-
-
- //reverse:-
- int temp,b,n;
+ int pri,rate,time,amount;
     char ch;
     do{
-        printf("enter any digit:");
-        scanf("%d",&n);
-        while(n>0){
-            temp=n%10;
-            b=b*10+temp;
-            n=n/10;
-        }
+        printf("enter principle value:");
+        scanf("%d",&pri);
 
-        printf("Reverse of digit-%d\n",b);
+        printf("enter rate value:");
+        scanf("%d",&rate);
+
+         printf("enter time value:");
+        scanf("%d",&time);
+        
+
+        amount=(pri*rate*time)/100;
+
+        printf("sum:-%d\n",amount);
 
         printf("\nDo u wanna continue... press(y/n)\n");
         fflush(stdin);
         scanf("%c",ch);
 
+
     }
-    while(ch=='Y' || ch=='N');   
+    while(ch=='Y' || ch=='N');
+
+
+ 
 }

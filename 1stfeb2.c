@@ -5,6 +5,7 @@ int temp,n,b=0;
     do{
         printf("enter any digit:");
         scanf("%d",&n);
+        b=0;
         while(n>0){
             temp=n%10;
             b=b*10+temp;
