@@ -1,8 +1,8 @@
-//Write a program in C to display the pattern like right angle triangle using an asterisk.
+//Write a program in C to display the pattern like right angle triangle with a number.
 #include<stdio.h>
 
 int main(){
-    int n;
+    int n,
    
     printf("enter digit:");
     scanf("%d",&n);
