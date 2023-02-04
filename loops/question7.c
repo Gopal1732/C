@@ -3,9 +3,8 @@
 #include<stdio.h>
 
 int main(){
-    int n,sum=0;
-    int m;
-
+    int n,m;
+   
     printf("table to be calculated:");
     scanf("%d",&n);
     for(int i=1;i<=10;i++){
