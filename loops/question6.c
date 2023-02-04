@@ -4,13 +4,13 @@
 
 int main(){
     int n,sum=0;
-    int mul;
+    int m;
 
     printf("table to be calculated:");
     scanf("%d",&n);
     for(int i=1;i<=10;i++){
-        mul=n*i;
-        printf(" %d x %d :-%d\n",n,i,mul);
+        m=n*i;
+        printf(" %d x %d :-%d\n",n,i,m);
     }
 
     return 0;
