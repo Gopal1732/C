@@ -4,11 +4,11 @@
 #include<stdio.h>
 
 int main(){
-    int i,n;
+    int i,m;
     float d,sum=0;
     printf("number of terms:");
-    scanf("%d",&n);
-    for(i=1;i<=n;i++){
+    scanf("%d",&m);
+    for(i=1;i<=m;i++){
         d=1/(float)i;
         sum=sum+d;
         
