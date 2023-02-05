@@ -16,3 +16,4 @@ void main()
 	}
 	printf("\nthe sum = %f\nNumber of terms = %d\nvalue of x = %f\n",sum,n,x);
 } 
+//Doubt
