@@ -13,9 +13,7 @@ int main(){
             printf("%d",k);
           k=(k+1)%2;
         } 
-         printf("\n");
+        printf("\n");
     }
-   
-
-    return 0;
+  return 0;
 }
