@@ -2,11 +2,11 @@
 #include<stdio.h>
 
 int main(){
-    int n;
+    int m;
     printf("enter value for factorial:");
-    scanf("%d",&n);
+    scanf("%d",&m);
     int fact=1;
-    for(int i=1;i<=n;i++){
+    for(int i=1;i<=m;i++){
         printf("fact%d:",i);
         fact=fact*i;
          printf("%d",fact);
