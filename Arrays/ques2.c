@@ -4,7 +4,7 @@
 
 int main(){
     int i,n;
-    int arr[100],rarr[100];
+    int arr[100];
     printf("enter size of array:");
     scanf("%d",&n);
 
