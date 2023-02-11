@@ -1,5 +1,4 @@
-Write a program in C to sort elements of an array in ascending order. 
-
+ //Write a program in C to sort elements of an array in descending order.
  #include<stdio.h>
 
 int main(){
@@ -17,7 +16,7 @@ int main(){
     {
         for(j=i+1; j<n; j++)
         {
-            if(arr[j] <arr[i])
+            if(arr[i] <arr[j])
             {
                 tmp = arr[i];
                 arr[i] = arr[j];
@@ -26,7 +25,7 @@ int main(){
         }
     }
     
-    printf("elements in a sorted ascending order");
+    printf("elements in a sorted descending order");
     for(i=0;i<n;i++){
         printf(" %d ",arr[i]);
     }
