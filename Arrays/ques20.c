@@ -1,4 +1,5 @@
-//Write a program in C to print or display the lower triangular of a given matrix.
+// Write a program in C to print or display upper triangular matrix.
+
 #include<stdio.h>
 
 int main(){
@@ -24,10 +25,10 @@ int main(){
         }printf("\n");
     }
 
-    printf("Setting zero in lower triangle:-\n");
+    printf("Setting zero in upper triangle:-\n");
     for(i=0;i<n;i++){
         for(j=0;j<n;j++){
-            if(i<=j){
+            if(i>=j){
               printf(" %d ",arr[i][j]);  
             }
            else{
