@@ -1,4 +1,4 @@
-//Write a program in C to accept a matrix and determine whether it is a sparse matrix
+// . Write a program in C to accept two matrices and check whether they are equal. 
 
 #include<stdio.h>
 #include<stdlib.h>
