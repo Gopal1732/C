@@ -11,15 +11,15 @@ main(){
 
 //defination
 void sum(){
-    int a,b,res;
+    int a,b,result;
     printf("enter 1st value:");
    scanf("%d",&a);
 
    printf("enter 2nd value:");
    scanf("%d",&b);
    
-    res=a+b;
-    printf("The sum is:%d",res);
+    result=a+b;
+    printf("The sum is:%d",result);
    
 }
 
