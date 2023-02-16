@@ -1,22 +1,23 @@
-//reverse of a string
+//reverse of a string without using library function
 
 #include<stdio.h>
 #include<string.h> 
 
 int main(){
-    int size,i;
-  char arr[50],ch[50];
+    int i,n;
+  char ch[50];
   
+  printf("enter character:");
+  gets(ch);
 
-   size=strlen(ch); 
-  printf("%d",size);
+   n=strlen(ch); 
 
-printf("enter character:");
-  for(int i=0;i<size;i++){
-    arr[i]==ch;
+
+  for(int i=n-1;i>=0;i--){
+     printf("%c",ch[i]);
   }
 
-  printf("%c",arr[i]);
+  
   
   
   
