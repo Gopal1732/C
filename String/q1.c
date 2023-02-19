@@ -6,7 +6,7 @@ void print(char arr[]);
 int main(){
     // char name[]={'g','o','p','a','l','\o'};
     char firstname[]="Gopal";
-    char lastname[]="Jana";
+    char lastname[]="J";
 
     print(firstname);
     print(lastname);
