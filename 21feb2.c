@@ -15,5 +15,5 @@ int main(){
     printf("enter any digit");
     scanf("%d",&a);
     printf("sum of digit:%d",sum(a));
-      returnn 0;
+      return 0;
 }
