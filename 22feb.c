@@ -10,11 +10,11 @@ int power(int base,int exp){
 }
 
 int main(){
-    int base,exp,res;
-    printf("Enter base :");
+    int base,exp;
+    printf("Enter Base :");
     scanf("%d",&base);
 
-    printf("Enter exp.. :");
+    printf("Enter Exp.. :");
     scanf("%d",&exp);
 
     printf("Power:%d ",power(base,exp));
