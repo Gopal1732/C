@@ -1,14 +1,13 @@
 #include<stdio.h>
 
 enum Level{
-    Low=23,
-    Mid=87,
-    High=123
+    L=23,
+    M=87,
+    H=321
 };
 
 void main(){
-    enum Level myvar =High;
+    enum Level myvar =H;
     printf("%d",myvar);
 }
 
-0
